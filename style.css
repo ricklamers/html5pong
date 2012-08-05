@@ -1,0 +1,23 @@
+* {margin:0px; padding:0px;}
+
+@font-face {
+    font-family: 'cinnamoncake';
+    src: url('fonts/cinnamoncake.ttf');
+}
+
+html, body {font-family:"Verdana"; font-size:14px;}
+
+
+a {color:#106AB4;}
+
+#pageWrap {width:800px;margin:0px auto;}
+
+canvas#gameCanvas {width:800px; height:600px; background:; margin:0px auto; margin-top:20px; box-shadow:0px 0px 20px #333;}
+
+#highestScore {text-align:center; margin-top:20px; font-size:23px;}
+
+#about {width:400px; margin:0px auto; margin-top:20px; margin-bottom:20px; padding:10px; border-radius:10px; background:#eee; color:#333;}
+#about h2 {text-align:center; font-weight:normal;}
+#about p {text-align:justify; font-size:13px;}
+#about span.center {display:block; text-align:center;}
+#disqus_thread {width:700px; margin:0px auto;}
